@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header {
+    background-color: #F2B705;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+main {
+    width: 900px;
+    margin: auto auto;
+}
+
+footer {
+    background-color: #262626;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #2350D9;
+    font-size: 36px;
+    font-family: Mogra, sans-serif;
+    word-spacing: 16px;
+}
+
+h2, h4 {
+    color: steelblue;
+    font-family: Mogra, sans-serif;
+}
+p {
+    font-family: Poppins, sans-serif;
+}
+
+li {
+    font-family: Poppins;
+    color: teal;
+    
+}
+/* Selector por clase .*/
+.importante {
+    color: #D94423;
+}
+
+.celeste {
+    color: #276BF2;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.verde {
+    color: teal;
+    font-weight: 900;
+}
+.naranja {
+    color: #F25D27;
+    font-weight: 900;
+}
+
+.text-center {
+    text-align: center;
+}
+/* importancia N3 */
+#codigo {
+    color:#F2B705;
+    background-color: #262626;
+}
+/* importancia N2 */
+.code {
+    color: #2980F2;
+    background-color: #262626;
+}
+/* importancia N1 */
+pre {
+    color: teal;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
