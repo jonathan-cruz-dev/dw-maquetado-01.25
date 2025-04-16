@@ -79,3 +79,41 @@ pre {
     padding-left: 16px;
     padding-bottom: 16px;
 }
+
+
+.card {
+    border-radius: 5px;
+    border: solid 1px #49494957;
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    margin: 16px;
+    padding-top: 16px;
+    box-shadow: 5px 5px 10px #262626d9;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px #262626;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.btn {
+    font-family: Poppins;
+    text-decoration: none;
+    background-color: #276BF2;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 60px;
+    border: solid 1px #49494957;
+
+}
+
+.btn:hover {
+    background-color: #bd1f49;
+
+}
