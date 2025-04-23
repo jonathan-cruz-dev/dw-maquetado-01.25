@@ -17,8 +17,8 @@ header {
     background-size: cover;
     background-position: center 50%;
     background-attachment: fixed;
-    padding-top: 64px;
-    padding-bottom: 64px;   
+   /*  padding-top: 64px; */
+   /*  padding-bottom: 64px;   */ 
 }
 
 .avatar {
@@ -101,6 +101,9 @@ h1 {
     font-size: 56px;
     font-family: Mogra, sans-serif;
     word-spacing: 16px;
+    background-color: rgba(203, 53, 53, 0.5);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 h2, h4 {
@@ -206,7 +209,45 @@ pre {
     overflow: auto;
 }
 
-.box p {
- 
+
+
+form {
+    border: 2px solid #262626;
+    padding: 16px;
+    font-family: Poppins, sans-serif;
+    width: 215px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 375px;
 }
 
+.form-control {
+    display: block;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f3f4f5;
+    border: 2px solid #2d3039;
+
+}
+
+.btn-primary {
+    font-family: Poppins, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #262626;
+    color: white;
+    width: 215px;
+}
+
+.btn-primary:hover {
+    background-color: #515151;
+
+}
+
+.mt-5 {
+    margin-top: 50px;
+}

@@ -94,6 +94,54 @@
 
             </div>
         </section>
+        <section>
+            <h2>Contactos</h2>
+
+            <form action="gracias.html" method="get">
+                <label for="">Nombre</label>
+                <input class="form-control" type="text" name="nombre" required minlength="3" maxlength="16">
+
+                <label for="">Email</label>
+                <input class="form-control" type="email" name="email" required>
+
+                <label for="">Edad</label>
+                <input class="form-control" type="number" min="18" max="99">
+
+                <label for="">Fecha</label>
+                <input class="form-control" type="date">
+
+                <label for="">Categoría</label>
+                <select class="form-control"  name="categoria" id="">
+                    <option value="">Diseño Web</option>
+                    <option value="">Programación Web</option>
+                    <option value="">Desarollo Backend</option>
+                </select>
+
+
+
+
+                <label for="">Aceptar
+                    <input type="checkbox" name="aceptar" id="">
+                </label>
+                <button class="btn-primary" type="submit">Enviar</button>
+
+            </form>
+
+            <form action="">
+                <label for="">Tel</label>
+                <input class="form-control" type="tel">
+                <label for="">Colores</label>
+                <input class="form-control" type="color">
+
+                <label for="">Detalles</label>
+                <textarea class="form-control" rows="6" name="" id=""></textarea>
+
+                <label for="">Rango</label>
+                <input type="range">
+                <button class="btn-primary mt-5" type="submit">Enviar</button>
+
+            </form>
+        </section>
     </main>
     <a href="#" class="chat">
         <img src="images/whatsapp.png" alt="whatsapp">
