@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f4f5;
+}
+
+header {
+    background-color: #F2B705;
+    background-image: url("images/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
+    background-attachment: fixed;
+   /*  padding-top: 64px; */
+   /*  padding-bottom: 64px;   */ 
+}
+
+.avatar {
+    border: 2px solid salmon;
+    background-color: salmon;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+main {
+    width: 900px;
+    margin: auto auto;
+    background-image: url("images/fondo2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 32px;
+}
+
+
+
+aside.publi{
+    background-color: white;
+    border: 2px solid #276BF2;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    top:350px;
+    right: 20px;
+}
+
+.publi h4 {
+    color: teal;
+    font-size: 22px;
+    text-align: center;
+}
+.publi .box {
+    margin-top: 5px;
+    border: none;
+    background-color: #262626;
+}
+
+.publi .btn {
+    margin-top: 10px;
+}
+
+.laptop{
+    position: absolute;
+    top:150px;
+    right: 20px;
+}
+nav {
+    position: sticky;
+    top: 0px;
+    box-shadow: 5px 5px 10px #262626d9;
+    z-index: 3;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #2d3039;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+nav ul li {
+    margin-right: 16px;
+    display: inline-block;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid #F2B705;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #262626;
+    color: white;
+    padding: 32px;
+    text-align: center;
+}
+
+.chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+section {
+    margin-bottom: 32px;
+    padding: 32px;
+    background-color: #f3f4f5;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+h1 {
+    color: #f3f4f5;
+    text-shadow: 2px 2px 5px #262626;
+    font-size: 56px;
+    font-family: Mogra, sans-serif;
+    word-spacing: 16px;
+    background-color: rgba(203, 53, 53, 0.5);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h2, h4 {
+    color: steelblue;
+    font-family: Mogra, sans-serif;
+}
+p {
+    font-family: Poppins, sans-serif;
+}
+
+ul {
+    padding-left: 32px;
+}
+
+li {
+    font-family: Poppins;
+    color: teal;
+    
+}
+/* Selector por clase .*/
+.importante {
+    color: #D94423;
+}
+
+.celeste {
+    color: #276BF2;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.verde {
+    color: teal;
+    font-weight: 900;
+}
+.naranja {
+    color: #F25D27;
+    font-weight: 900;
+}
+
+.text-center {
+    text-align: center;
+}
+/* importancia N3 */
+#codigo {
+    color:#F2B705;
+    background-color: #262626;
+}
+/* importancia N2 */
+.code {
+    color: #2980F2;
+    background-color: #262626;
+}
+/* importancia N1 */
+pre {
+    color: teal;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+
+.card {
+    border-radius: 5px;
+    border: solid 1px #49494957;
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    margin: 16px;
+    padding-top: 16px;
+    box-shadow: 5px 5px 10px #262626d9;
+
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px #262626;
+}
+
+.card .card-icon {
+    width: 64px;
+    position: absolute;
+    top:5px;
+    right: -15px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.card .card-descripcion {
+    background-color: #1d4bd79b;
+    color: white;
+    position: absolute;
+    top: 182px;
+    padding: 10px;
+    text-align: center;
+}
+.w-2 {
+    padding-top: 0;
+    width: 400px;
+    overflow: hidden;
+    height: 250px;
+}
+
+.card-img-center {
+    position: absolute;
+    top: -120px
+}
+
+.btn {
+    font-family: Poppins;
+    text-decoration: none;
+    background-color: #276BF2;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 60px;
+    border: solid 1px #49494957;
+
+}
+
+.btn:hover {
+    background-color: #bd1f49;
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 5px double #2350D9;
+    overflow: auto;
+}
+
+
+
+form {
+    border: 2px solid #262626;
+    padding: 16px;
+    font-family: Poppins, sans-serif;
+    width: 215px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 375px;
+}
+
+.form-control {
+    display: block;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f3f4f5;
+    border: 2px solid #2d3039;
+
+}
+
+.btn-primary {
+    font-family: Poppins, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #262626;
+    color: white;
+    width: 215px;
+}
+
+.btn-primary:hover {
+    background-color: #515151;
+
+}
+
+.mt-5 {
+    margin-top: 50px;
+}

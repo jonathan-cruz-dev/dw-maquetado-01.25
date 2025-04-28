@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="text-center">Lenguaje CSS</h1>
+        <div class="avatar">
+            <img src="images/avatar.png" alt="avatar">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">¿Qué es CSS?</a>
+            </li>
+            <li>
+                <a href="#">Sinaxis Básica</a>
+            </li>
+            <li>
+                <a href="#">forma de Aplicar CSS</a>
+            </li>
+            <li>
+                <a href="#">verflow</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2 class="celeste text-center">¿Qué es CSS?</h2>
+            <p> <span class="celeste">CSS</span> es un <span class="verde">lenguaje</span> que define cómo se deben mostrar los elementos <span class="naranja">HTML</span> en la pantalla. Controla aspectos como:</p>
+            <ul>
+                <li>Colores</li>
+                <li>Fuentes</li>
+                <li class="importante">Tamaños</li>
+                <li> Posicionamientos</li>
+                <li class="importante">Animaciones y transiciones</li>
+            </ul>
+        </section>
+        <section >
+            <h2 class="celeste text-center">Sinaxis Básica</h2>
+            <pre id="codigo" class="code">
+                selector {
+                    propiedad: valor;
+                    propiedad: valor;
+                }
+            </pre>
+            <h4>Ejemplo</h4>
+            <pre class="code">
+                h1 {
+                    color: blue;
+                    font-size: 36px;
+                }
+            </pre>
+        </section>
+        <section>
+            <h2>forma de Aplicar CSS</h2>
+            <pre>
+               
+            </pre>
+        </section>
+        <section>
+            <h2>overflow</h2>
+            <p> Es cuando el contenido se desorda del contenedor</p>
+
+            <div class="box">
+
+                <p>
+                    En CSS, la propiedad overflow se utiliza para controlar qué sucede cuando el contenido de un elemento se desborda  dentro de su contenedor.
+                    Cuando el contenido dentro de un elemento HTML  es más grande que el área asignada (por ejemplo, si le das un height: 200px pero el contenido mide más), se produce un desbordamiento (overflow).
+                </p>
+            </div>
+
+        </section>
+        <section>
+            <h2>Galería</h2>
+            <div class="card">
+                <img src="images/css.png" alt="html">
+                <a href="#" class="btn">Ver más</a>
+                <img class="card-icon" src="images/laptop.png" alt="laptop">
+            </div>
+
+            <div class="card">
+                <img src="images/html.png" alt="css">
+                <a href="#" class="btn">Ver más</a>
+                <img class="card-icon" src="images/laptop.png" alt="laptop">
+
+            </div>
+            <div class="card">
+                <img src="images/js.png" alt="js">
+                <a href="#" class="btn">Ver más</a>
+                <img class="card-icon" src="images/laptop.png" alt="laptop">
+
+            </div>
+
+            <div class="card w-2">
+                <img src="images/fondo2.jpg" alt="">
+                <p class="card-descripcion">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="card w-2">
+                <img class="card-img-center" src="images/fondo1.jpg" alt="">
+                <p class="card-descripcion">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>Contactos</h2>
+
+            <form action="gracias.html" method="get">
+                <label for="">Nombre</label>
+                <input class="form-control" type="text" name="nombre" required minlength="3" maxlength="16">
+
+                <label for="">Email</label>
+                <input class="form-control" type="email" name="email" required>
+
+                <label for="">Edad</label>
+                <input class="form-control" type="number" min="18" max="99">
+
+                <label for="">Fecha</label>
+                <input class="form-control" type="date">
+
+                <label for="">Categoría</label>
+                <select class="form-control"  name="categoria" id="">
+                    <option value="">Diseño Web</option>
+                    <option value="">Programación Web</option>
+                    <option value="">Desarollo Backend</option>
+                </select>
+
+
+
+
+                <label for="">Aceptar
+                    <input type="checkbox" name="aceptar" id="">
+                </label>
+                <button class="btn-primary" type="submit">Enviar</button>
+
+            </form>
+
+            <form action="">
+                <label for="">Tel</label>
+                <input class="form-control" type="tel">
+                <label for="">Colores</label>
+                <input class="form-control" type="color">
+
+                <label for="">Detalles</label>
+                <textarea class="form-control" rows="6" name="" id=""></textarea>
+
+                <label for="">Rango</label>
+                <input type="range">
+                <button class="btn-primary mt-5" type="submit">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+    <a href="#" class="chat">
+        <img src="images/whatsapp.png" alt="whatsapp">
+    </a>
+    <aside class="publi">
+        <h4>Cursos de Programación</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <div class="box">
+
+        </div>
+        <button class="btn">Ingresar</button>
+        <img class="laptop" src="images/laptop.png" alt="laptop">
+    </aside>
+    <footer>
+        <p>
+            ISEC | Maquetado y Desarrollo Web | 2025
+        </p>
+    </footer>
+</body>
+</html>
