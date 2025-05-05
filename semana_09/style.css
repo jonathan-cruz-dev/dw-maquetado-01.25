@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f4f5;
+}
+
+header {
+    background-color: #F2B705;
+    background-image: url("images/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
+    background-attachment: fixed;
+   /*  padding-top: 64px; */
+   /*  padding-bottom: 64px;   */ 
+}
+
+
+
+
+main {
+    width: 900px;
+   
+    background-image: url("images/fondo2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 32px;
+    padding-bottom: 25px;
+    float: left ;
+}
+
+aside {
+    background-color: teal;
+    padding: 26px;
+    width: 250px;
+    height: 500px;
+    float: left;
+}
+
+aside h2 {
+    color: white;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: #2d3039;
+    box-shadow: 5px 5px 10px #262626d9;
+    z-index: 3;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #2d3039;
+    height: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+nav ul li {
+    margin-right: 16px;
+    float: left;
+
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid #F2B705;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    float: left;
+    width: 34px;
+}
+
+footer {
+    background-color: #262626;
+    color: white;
+    padding: 32px;
+    text-align: center;
+}
+
+
+section {
+    margin-bottom: 32px;
+    padding: 32px;
+    background-color: #f3f4f5;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+h1 {
+    color: #f3f4f5;
+    text-shadow: 2px 2px 5px #262626;
+    font-size: 56px;
+    font-family: Mogra, sans-serif;
+    word-spacing: 16px;
+    background-color: rgba(203, 53, 53, 0.5);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h2, h4 {
+    color: steelblue;
+    font-family: Mogra, sans-serif;
+}
+p {
+    font-family: Poppins, sans-serif;
+}
+
+ul {
+    padding-left: 32px;
+}
+
+li {
+    font-family: Poppins;
+    color: teal;
+    
+}
+.text-center {
+    text-align: center;
+}
+/* importancia N3 */
+#codigo {
+    color:#F2B705;
+    background-color: #262626;
+}
+/* importancia N2 */
+.code {
+    color: #2980F2;
+    background-color: #262626;
+}
+/* importancia N1 */
+pre {
+    color: teal;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+
+.card {
+    border-radius: 5px;
+    border: solid 1px #49494957;
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    margin: 16px;
+    padding-top: 16px;
+    box-shadow: 5px 5px 10px #262626d9;
+
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px #262626;
+}
+
+.card .card-icon {
+    width: 64px;
+    position: absolute;
+    top:5px;
+    right: -15px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.card .card-descripcion {
+    background-color: #1d4bd79b;
+    color: white;
+    position: absolute;
+    top: 182px;
+    padding: 10px;
+    text-align: center;
+}
+.w-2 {
+    padding-top: 0;
+    width: 400px;
+    overflow: hidden;
+    height: 250px;
+}
+
+.card-img-center {
+    position: absolute;
+    top: -120px
+}
+
+.btn {
+    font-family: Poppins;
+    text-decoration: none;
+    background-color: #276BF2;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 60px;
+    border: solid 1px #49494957;
+
+}
+
+.btn:hover {
+    background-color: #bd1f49;
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #2350D9;
+    border-left: solid teal 20px;
+    border-right: solid teal 20px;
+
+    overflow: auto;
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+}
+
+
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.post {
+    
+}
+
+.img-post {
+    width: 250px;
+
+}
+
+.post .img-post{
+    float: right;
+}
+
+.post p {
+    text-align: justify;
+}
+
+.left {
+    float: left;
+}
+
+.right{
+    float: right;
+}
