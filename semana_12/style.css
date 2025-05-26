@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header {
+    height: 150px;
+    background-color: teal;
+}
+
+main{ 
+    min-height: 500px;
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+footer {
+    height: 50px;
+    background-color: black;
+}
