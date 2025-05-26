@@ -9,6 +9,7 @@ header, footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: white;
 }
 
@@ -17,6 +18,22 @@ header {
     background-color: teal;
 }
 
+header input {
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    transition: width 1s, padding 0.5s, background-color 2s;
+}
+
+
+header input:hover {
+    width: 250px;
+    padding: 15px;
+    background-color: rebeccapurple;
+    color: white;
+    transform: scale(2);
+}
 main{ 
     min-height: 500px;
     width: 600px;
@@ -29,3 +46,170 @@ footer {
     height: 50px;
     background-color: black;
 }
+
+
+.flex-container {
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: teal;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: cell;
+    overflow: hidden;
+}
+
+.box p {
+    color: white;
+}
+
+.box  img {
+    width: 100%;
+}
+/* Transformaciones */
+
+.rotate{
+    transition: all;
+    transition-duration: 1s;
+}
+
+.rotate:hover {
+    transform: rotate(30deg);
+}
+
+.rotateY:hover {
+    transform: rotateY(50deg);
+}
+
+.translate{
+    transition: all;
+    transition-duration: 5s;
+}
+.translate:hover {
+    transform: translate(100px, 30px);
+}
+
+.scale:hover {
+    transform: scale(1.5);
+}
+
+.scale-2 {
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: 500ms;
+}
+.scale-2:hover{
+    transform: scale(5) translate(-30px, 20px);
+}
+
+.skew {
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.skew:hover{
+    transform: skew(-50deg);
+    background-color: rebeccapurple;
+}
+
+.skewX:hover{
+    transform: skewX(-50deg);
+}
+
+.skewY:hover{
+    transform: skewY(-50deg);
+}
+
+.perspetive {
+    transition: ease-in-out all 1s;
+    transition-delay: 500ms;
+
+}
+
+.perspetive:hover {
+    transform: perspective(100px) rotateY(30deg);
+}
+
+.violeta {
+    transition: background-color ;
+    transition-duration: 500ms;
+}
+
+.violeta:hover {
+    background-color: rebeccapurple;
+    width: 100px;
+
+}
+
+
+
+.animacion {
+    animation-name: circulo;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+}
+
+@keyframes circulo {
+    0%{
+        border-radius: 0;
+    }
+
+    50%{
+        border-radius: 100px;
+        background-color: rebeccapurple;
+        transform: skew(50deg);
+    }
+
+    65%{
+        transform: translateX(200px);
+        height: 50px;
+    }
+    70%{
+        transform: translateX(-200px);
+        background-color: teal;
+    }
+    
+}
+
+.modal {
+    background-color: thistle;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 1s;
+    transition-delay: 1s;
+    animation: zoomOut 2s ease-in-out alternate-reverse;
+}
+
+
+
+@keyframes zoomOut {
+    0% {
+        transform: translateY(10px) scale(0.7);
+    }
+
+
+    50% {
+        
+    }
+
+    100%{
+        transform: translateY(200px) scale(0.1);
+        background-color: rgb(230, 50, 230);
+    }
+}
+
