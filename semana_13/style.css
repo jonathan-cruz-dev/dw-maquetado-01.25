@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.bg-gray {
+    background-color: #6C757D;
+    color: white;
+}
+
+.bg-dark {
+    background-color: #212529;
+    color: white;
+}
+
+.bg-green {
+    background-color: #1C8C4D;
+    color: white;
+}
+
+.bg-white {
+    background-color: #F8F9FA;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    height: 50px;
+    box-shadow: 2px 2px 10px #6c757d9d;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 40px;
+}
+
+nav ul .menu-principal{
+    position: relative;
+    width: 120px;
+
+}
+
+nav ul .menu-principal:hover {
+    background-color: #1C8C4D;
+}
+
+nav ul .menu-principal:hover >a {
+    color: white;
+}
+
+nav ul .menu-principal:hover ul.sub-menu {
+    display: block;
+    transition: all ease 1s;
+
+}
+
+nav ul.sub-menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -5px;
+    flex-direction: column;
+    background-color: #F8F9FA;
+    min-height: 150px;
+    width: 120px;
+}
+
+
+nav ul.sub-menu li:hover {
+    background-color: #1C8C4D;
+    color: white;
+}
+
+
+nav ul.sub-menu li:hover a {
+    color: white;
+}
+nav ul li a {
+    width: 100%;
+    text-decoration: none;
+    color: #32363a;
+
+}
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid #1C8C4D;
+}
+#oferta {
+    height: 150px;
+}
+
+#locaciones {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#locaciones-2 img {
+    max-width: 350px;
+}
+
+#beneficios-2 {
+    background-color: #212529;
+    color: white;
+
+}
+
+#beneficios-2 img {
+    max-width: 350px;
+
+}
+
+#destinos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#destinos img {
+    width: 240px;
+    border: 0.5px solid #a9aeb3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.5px solid #6C757D;
+    padding: 16px;
+}
+
+.card i {
+    font-size: 24px;
+}
+.card p {
+    text-align: center;
+}
+
+.mapa iframe {
+    border-radius: 10px;
+}
+
+.contactos {
+    list-style: none;
+}
+
+.contactos li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.3px solid #aeb5bc;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn-light{
+    color: #212529;
+    border: 0.5px solid #212529;
+}
+
+.btn-white {
+    background-color: white;
+    color: #212529;
+    border: 0.5px solid #F8F9FA;
+
+}
+
+.btn-dark {
+    background-color: #212529;
+}
+
+.btn-dark:hover {
+    background-color: #363d44;
+}
+
+.btn-green {
+    background-color: #1C8C4D;
+}
+
+.btn-green:hover {
+    background-color: #25b664;
+}
+.text-green {
+    color: #1C8C4D;
+}
+
+.text-black {
+    color: #32363a;;
+}
+form input {
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.2px solid #363d44;
+}

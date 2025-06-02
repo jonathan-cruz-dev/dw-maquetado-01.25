@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes</title>
+    <!-- Librerías-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="libs/glightbox-3.3.0/css/glightbox.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+    <nav class="bg-white">
+        <h4 class="text-black">Viajes</h4>
+        <ul>
+            <li>
+                <a href="#locaciones">Locaciones</a>
+            </li>
+            <li class="menu-principal">
+                <a href="#beneficios">Beneficios</a>
+                <ul class="sub-menu">
+                    <li><a href="#aventura">Aventura</a></li>
+                    <li><a href="#alojamiento">Alojamiento</a></li>
+                    <li><a href="#vuelos">Vuelos</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#contactos">Contactos</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="row text-black">
+            <div class="col">
+                <h1 class="text-black">Vaija <span class="text-green"> sin límites</span> </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita accusantium cupiditate odit adipisci vel provident libero assumenda</p>
+                <a href="#reserva" class="btn btn-green">Resevar <i class="fa-solid fa-paper-plane"></i></a>
+            </div>
+            <div class="col">
+                <img src="images/travel.svg" alt="tavel">
+            </div>
+        </div>
+  
+    </header>
+    <section id="oferta" class="bg-green row">
+        <div class="col">
+            <h2>Ofertas exclusivas en su Correo</h2>
+        </div>
+        <div class="col">
+            <form action="">
+                <input type="email" placeholder="Ingrese su Email">
+                <button class="btn btn-dark" type="submit">Enviar <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+    <section id="locaciones">
+        <div class="card bg-dark" data-aos="fade-right">
+            <i class="fa-solid fa-sun"></i>
+            <h4>Aventura</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a class="btn btn-green" href="#">Mas</a>
+        </div>
+        <div class="card bg-gray" data-aos="fade-up">
+            <i class="fa-solid fa-house"></i>
+            <h4>Alojamiento</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a class="btn btn-dark" href="#">Mas</a>
+        </div>
+        <div class="card bg-dark" data-aos="fade-left">
+            <i class="fa-solid fa-location-dot"></i>
+            <h4>Vuelos</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a class="btn btn-green" href="#">Mas</a>
+        </div>
+    </section>
+    <section id="destinos">
+        <a href="images/el_cairo.jpg" class="glightbox">
+            <img src="images/el_cairo_s.jpg" alt="El Caribe">
+        </a>
+        <a href="images/el_caribe.jpg" class="glightbox">
+            <img src="images/el_caribe_s.jpg" alt="El CAribe">
+        </a>
+        <a href="images/jerusalen.jpg" class="glightbox">
+            <img src="images/jerusalen_s.jpg" alt="Jerusan">
+        </a>
+                <a href="images/moscu.jpg" class="glightbox">
+            <img src="images/moscu_s.jpg" alt="Moscú">
+        </a>
+    </section>
+    <section id="locaciones-2" class="row">
+        <div class="col">
+            <img src="images/locaciones.svg" alt="locaciones" class="img-responsive" data-aos="zoom-in">
+        </div>
+        <div class="col">
+            <div class="card " data-aos="fade-up-left">
+                <h2>Locaciones</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, id quas eum non 
+                </p>
+                <a href="#" class="btn btn-light"><i class="fa-solid fa-paper-plane"></i> Reservar</a>
+            </div>
+
+        </div>
+    </section>
+    <section id="beneficios-2" class="row">
+        <div class="col " data-aos="zoom-in">
+            <h2>Beneficios</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, sequi tempora? Neque voluptatum ut repudiandae mollitia sunt voluptas necessitatibus reprehenderit ipsam a dolores nemo maiores, dicta iure eligendi pariatur nam.
+            </p>
+            <a href="#" class="btn btn-white"><i class="fa-solid fa-paper-plane"></i> Reservar</a>
+
+        </div>
+        <div class="col">
+            <img src="images/beneficios.svg" alt="beneficios" class="img-responsive" data-aos="zoom-in">
+        </div>
+    </section>
+
+    <section id="contactos" class="row">
+        <div class="col">
+            <h2>Contactos</h2>
+            <ul class="contactos">
+                <li><strong>Dirección:</strong> Clase Falsa 312</li>
+                <li><strong>Teléfono:</strong> (011)0000 - 0000</li>
+                <li><strong>Email:</strong> info@viajes.com</li>
+
+            </ul>
+        </div>
+        <div class="col mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201170.11283061255!2d-57.76534598638186!3d-38.017181125475226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dbe6449aa87b%3A0x474eab34992e60a1!2sMAR%20-%20Museo%20Provincial%20de%20Arte%20Contempor%C3%A1neo!5e0!3m2!1ses!2sar!4v1748874980164!5m2!1ses!2sar" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer class="bg-dark">
+        <p> Agencia de Viajes</p>
+    </footer>
+    <script src="libs/glightbox-3.3.0/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({ });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
