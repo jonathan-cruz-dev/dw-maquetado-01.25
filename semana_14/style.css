@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.bg-gray {
+    background-color: #6C757D;
+    color: white;
+}
+
+.bg-dark {
+    background-color: #212529;
+    color: white;
+}
+
+.bg-green {
+    background-color: #1C8C4D;
+    color: white;
+}
+
+.bg-white {
+    background-color: #F8F9FA;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    height: 50px;
+    box-shadow: 2px 2px 10px #6c757d9d;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav h4 img {
+    max-width: 40px;
+    height: auto;
+    display: block;
+}	
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 40px;
+}
+
+nav ul .menu-principal{
+    position: relative;
+    width: 120px;
+
+}
+
+nav ul .menu-principal:hover {
+    background-color: #1C8C4D;
+}
+
+nav ul .menu-principal:hover >a {
+    color: white;
+}
+
+nav ul .menu-principal:hover ul.sub-menu {
+    display: block;
+    transition: all ease 1s;
+
+}
+
+nav ul.sub-menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -5px;
+    flex-direction: column;
+    background-color: #F8F9FA;
+    min-height: 150px;
+    width: 120px;
+}
+
+
+nav ul.sub-menu li:hover {
+    background-color: #1C8C4D;
+    color: white;
+}
+
+
+nav ul.sub-menu li:hover a {
+    color: white;
+}
+nav ul li a {
+    width: 100%;
+    text-decoration: none;
+    color: #32363a;
+
+}
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid #1C8C4D;
+}
+#oferta {
+    height: 150px;
+}
+
+#locaciones {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#locaciones-2 img {
+    max-width: 350px;
+}
+
+#beneficios-2 {
+    background-color: #212529;
+    color: white;
+
+}
+
+#beneficios-2 img {
+    max-width: 350px;
+
+}
+
+#destinos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#destinos img {
+    width: 240px;
+    border: 0.5px solid #a9aeb3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#reserva {
+    background-color: #f8f9fa; /* Fondo claro para el formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+}
+
+#reserva label {
+    display: block; /* Asegura que las etiquetas estén en línea separada */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 5px; /* Espaciado entre etiqueta y campo */
+    color: #212529; /* Color del texto */
+}
+
+#reserva input[type="text"],
+#reserva input[type="email"],
+#reserva input[type="date"],
+#reserva select {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espaciado entre campos */
+    border: 1px solid #ced4da; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    box-sizing: border-box; /* Incluye padding y border en el ancho */
+}
+
+#reserva input[type="text"]:focus,
+#reserva input[type="email"]:focus,
+#reserva input[type="date"]:focus,
+#reserva select:focus {
+    border-color: #007bff; /* Cambia el color del borde al enfocar */
+    outline: none; /* Elimina el borde predeterminado */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra azul */
+}
+
+#reserva button {
+    background-color: #007bff; /* Color del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s ease; /* Animación suave */
+}
+
+#reserva button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el mouse */
+}
+
+.col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.5px solid #6C757D;
+    padding: 16px;
+}
+
+.card i {
+    font-size: 24px;
+}
+.card p {
+    text-align: center;
+}
+
+.mapa iframe {
+    border-radius: 10px;
+}
+
+.contactos {
+    list-style: none;
+}
+
+.contactos li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.3px solid #aeb5bc;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn-reservar {
+    background-color: #007BFF; /* Color inicial del botón */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-reservar:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón */
+    background-color: #0056b3; /* Cambia el color al pasar el mouse */
+}
+.btn-light{
+    color: #212529;
+    border: 0.5px solid #212529;
+}
+
+.btn-white {
+    background-color: white;
+    color: #212529;
+    border: 0.5px solid #F8F9FA;
+
+}
+
+.btn-dark {
+    background-color: #212529;
+}
+
+.btn-dark:hover {
+    background-color: #363d44;
+}
+
+.btn-green {
+    background-color: #1C8C4D;
+}
+
+.btn-green:hover {
+    background-color: #25b664;
+}
+.text-green {
+    color: #1C8C4D;
+}
+
+.text-black {
+    color: #32363a;;
+}
+form input {
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.2px solid #363d44;
+}
+
+.inputEmail:focus {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+    #contactos {
+        flex-direction: column;
+    }
+
+    #contactos .col{
+        min-height: 250px;
+        width: 100%;
+    }
+
+    #reserva {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #reserva .row {
+        flex-direction: column;
+    }
+
+    #reserva .btn {
+        width: 100%;
+    } 
+}
